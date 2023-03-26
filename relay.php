@@ -19,5 +19,5 @@ function setRelay($relayNumber, $on, $delaySeconds = 0, $relayHost = '192.168.1.
     return $result;
 }
 
-// turns on relay 1 fro 30 seconds, then off
+// turns on relay 1 for 30 seconds, then off
 $status = setRelay(1, true, 30);
